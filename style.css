@@ -1,0 +1,118 @@
+body {
+    background-image: url(./src/messi\ mbappe\ and\ neymar.jpg); 
+    background-size: 100em 70em;
+    /* animation-name: psg-animation; */
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    animation-delay: 5ms;
+    animation-iteration-count: infinite;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo {
+    width: 3.05em;
+    height: 2.02em;
+    overflow: hidden;
+    margin-top: 1.2em;
+}
+.paris {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 30em;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(7, 30, 66);
+    justify-content: center;
+    
+}
+.toprighticons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: center;
+    justify-content: space-between;
+    grid-column-gap: 5em;
+}
+.eachtopright {
+    display: grid;
+    background: rgb(189, 199, 217);
+    padding: 0.5em;
+    font-size: larger;
+    border-radius: 5em;
+    width: 5em;
+    height: 1em;
+    justify-content: center;
+    color: black;
+}
+.descript {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    padding-top: 9em;
+    grid-column-gap: 10em;
+    font-size: x-large;
+    font-weight: bolder;
+    color: rgb(189, 199, 217);
+    text-align: center;
+}
+.descript1 {
+    background: rgba(13, 28, 54, 0.2);
+    /* animation-name: text-animation ; */
+    animation-duration: 20s;
+    animation-fill-mode: both;
+    animation-timing-function: ease-in;
+    animation-delay: 5ms;
+    animation-iteration-count: infinite;
+}
+.getbuy {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    grid-column-gap: 6em;
+    padding-top: 2.5em;
+    text-decoration: none;
+    font-size: x-large;
+}
+.getbuy-1 {
+    display: grid;
+    background: rgba(2, 5, 10, 0.5);
+    width: 8em;
+    height: 2em;
+    justify-content: center;
+    align-content: center;
+}
+.getbuy-2 {
+    color: rgb(10, 20, 109);
+    font-size: larger;
+}
+a:hover{
+    color: rgb(96, 144, 219);   
+}
+a:link {
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    padding-top: 2.5em;
+    color: rgb(110, 142, 202);
+}
+#email {
+    font-size: x-large;
+    background: rgba(2, 5, 10, 0.5);
+}
+@keyframes psg-animation {
+    0% {background-image: url(./src/messi\ smile.jpg);}
+    33% {background-image: url(./src/psg-empty-football-stadium-5usnvz445jnpjosj.jpg);}
+    66% {background-image: url(./src/psg-desktop-08.jpg);}
+    100% {background-image: url(./src/messi\ mbappe\ and\ neymar.jpg);}
+}
+@keyframes text-animation {
+    0% {font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+    50% {font-family: 'Courier New', Courier, monospace;}
+    100% {font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+}
